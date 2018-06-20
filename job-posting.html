@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="job-posting.css">
+
+    <title>Job Posting Data for Google Job Search</title>
+
+    <script src="job-posting.js"></script>
+  </head>
+
+  <body>
+    <h1>Job Posting Data for Google Job Search</h1>
+
+    <p>Enter the job data below and them click on the "Show HTML to embed"
+    button to generate the job posting data to paste into your web page for the
+    job opening.</p>
+
+    <div class="container">
+    <form name="job-form" action="">
+      <input type="hidden" name="name" value="Kaimuki YMCA">
+      <input type="hidden" name="sameAs" value="http://www.kaimukiymca.org/">
+      <input type="hidden" name="logo" value="http://www.kaimukiymca.org/uploads/7/4/5/5/74555883/published/1474393861.png">
+      <div class="row">
+        <div class="col-25">
+          <label>Title:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="title">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label>Street Address:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="streetAddress">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label>City:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="addressLocality">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label>State:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="addressRegion">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label>Zip Code:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="postalCode">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label>Description:</label>
+        </div>
+        <div class="col-75">
+          <textarea rows="10" cols="50" name="description"></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label>Date Posted:</label>
+        </div>
+        <div class="col-75">
+          <input type="date" name="datePosted">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label>Valid Through:</label>
+        </div>
+        <div class="col-75">
+          <input type="date" name="validThrough">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label>Employment Type:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="employmentType">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label>Posting ID:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="postingId">
+        </div>
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-25">
+          <input type="button" name="submit" value="Show HTML to embed">
+        </div>
+        <div class="col-25">
+          <input type="button" name="clear" value="Clear HTML to embed">
+        </div>
+      </div>
+    </form>
+
+    <h2>Embed this HTML snippet in your page</h2>
+      <div class="row">
+          <pre> </pre>
+      </div>
+
+  </body>
+</html>
