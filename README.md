@@ -15,7 +15,9 @@ Accessible* in the (#links) section below.
 
 ## How to use
 
-  - Just click on the job-posting.html link or open the file.
+  - Clone or download/unzip.
+  - Click on the job-posting.html link or open the file. Or try it out
+  [here](https://russtoku.github.io/job-posting-formatter/job-posting.html).
   - Fill in the blanks with a single job posting.
   - Click on the *Show HTML to embed* button to format an HTML snippet.
   - Copy and paste the snippet into your web page source.
